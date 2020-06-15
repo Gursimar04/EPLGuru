@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+ 	
+ 	<meta name="viewport" content="width=device-width, initial-scale=0.86, maximum-scale=3.0, minimum-scale=0.86">
+ 	
+ 	<link rel="stylesheet" type="text/css" href="bootstrap.css">
+
+	<title>EPL Guru</title>
+
+	<link rel="stylesheet" type="text/css" href="player.css">
+	
+	<script src="https://kit.fontawesome.com/a24945b291.js" crossorigin="anonymous"></script>
+	
+	<script  src="https://code.jquery.com/jquery-3.4.1.js"integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"> </script>
+
+	<script type="text/javascript">
+      // Example starter JavaScript for disabling form submissions if there are invalid fields
+      (function() {
+        'use strict';
+
+        window.addEventListener('load', function() {
+          // Fetch all the forms we want to apply custom Bootstrap validation styles to
+          var forms = document.getElementsByClassName('needs-validation');
+
+          // Loop over them and prevent submission
+          var validation = Array.prototype.filter.call(forms, function(form) {
+            form.addEventListener('submit', function(event) {
+              if (form.checkValidity() === false) {
+                event.preventDefault();
+                event.stopPropagation();
+              }
+              if()
+              form.classList.add('was-validated');
+            }, false);
+          });
+        }, false);
+      })();
+    </script>
+
+</head>
+
+<body>
+  	<div class="flud-container bg-white">
+  		<div class="row">
+  			<div class="col-1">
+  				<i class="far fa-futbol border"></i>
+  			</div>
+  				<div class="col-11">	
+  					<div class="d-flex flex-column">
+	        			<div class="d-flex justify-content-around">	
+	        					<p class="text-muted" id="clubsites">Club Sites </p>	
+
+	        					<a class="nav-link" href="#"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/0/0c/Liverpool_FC.svg/800px-Liverpool_FC.svg.png" class="clubs"></a>
+	        					<a class="nav-link" href="#"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/e/eb/Manchester_City_FC_badge.svg/474px-Manchester_City_FC_badge.svg.png" class="clubs"></a>
+	     		
+	     		        		<a class="nav-link" href="#"> <img src="https://upload.wikimedia.org/wikipedia/en/thumb/2/2d/Leicester_City_crest.svg/1024px-Leicester_City_crest.svg.png" class="clubs"></a>
+	      		        		<a class="nav-link" href="#"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/c/cc/Chelsea_FC.svg/1024px-Chelsea_FC.svg.png" class="clubs"></a>
+	     		
+	     		        		<a class="nav-link" href="#"> <img src="https://upload.wikimedia.org/wikipedia/en/thumb/7/7a/Manchester_United_FC_crest.svg/1024px-Manchester_United_FC_crest.svg.png" class="clubs"></a>
+	      		        		<a class="nav-link" href="#"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/f/fc/Wolverhampton_Wanderers.svg/1024px-Wolverhampton_Wanderers.svg.png" class="clubs"></a>
+	     		
+	     		        		<a class="nav-link" href="#"> <img src="https://upload.wikimedia.org/wikipedia/en/thumb/b/b4/Tottenham_Hotspur.svg/800px-Tottenham_Hotspur.svg.png" class="clubs"></a>
+	      		        		<a class="nav-link" href="#"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/9/9c/Sheffield_United_FC_logo.svg/1024px-Sheffield_United_FC_logo.svg.png" class="clubs"></a>
+	     		
+	     		        		<a class="nav-link" href="#"> <img src="https://upload.wikimedia.org/wikipedia/en/thumb/6/62/Burnley_F.C._Logo.svg/270px-Burnley_F.C._Logo.svg.png" class="clubs"></a>
+	      		        		<a class="nav-link" href="#"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/5/53/Arsenal_FC.svg/800px-Arsenal_FC.svg.png" class="clubs"></a>
+	     		
+	     		        		<a class="nav-link" href="#"> <img src="https://upload.wikimedia.org/wikipedia/en/thumb/7/7c/Everton_FC_logo.svg/800px-Everton_FC_logo.svg.png" class="clubs"></a>
+	      		        		<a class="nav-link" href="#"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/0/0c/Crystal_Palace_FC_logo.svg/800px-Crystal_Palace_FC_logo.svg.png" class="clubs"></a>
+	     		
+	     		        		<a class="nav-link" href="#"> <img src="https://upload.wikimedia.org/wikipedia/en/thumb/c/c9/FC_Southampton.svg/800px-FC_Southampton.svg.png" class="clubs"></a>
+	      		        		<a class="nav-link" href="#"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/5/56/Newcastle_United_Logo.svg/1024px-Newcastle_United_Logo.svg.png" class="clubs"></a>
+	     		
+	     		        		<a class="nav-link" href="#"> <img src="https://upload.wikimedia.org/wikipedia/en/thumb/f/fd/Brighton_%26_Hove_Albion_logo.svg/1024px-Brighton_%26_Hove_Albion_logo.svg.png" class="clubs"></a>
+	      		        		<a class="nav-link" href="#"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/c/c2/West_Ham_United_FC_logo.svg/800px-West_Ham_United_FC_logo.svg.png" class="clubs"></a>
+	     		
+	     		        		<a class="nav-link" href="#"> <img src="https://upload.wikimedia.org/wikipedia/en/thumb/e/e2/Watford.svg/800px-Watford.svg.png" class="clubs"></a>
+	      		        		<a class="nav-link" href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/6/68/OFFICIALBournemouthFC.png" class="clubs"></a>
+	     		
+	     		        		<a class="nav-link" href="#"> <img src="https://upload.wikimedia.org/wikipedia/en/thumb/f/f9/Aston_Villa_FC_crest_%282016%29.svg/225px-Aston_Villa_FC_crest_%282016%29.svg.png" class="clubs"></a>
+	      		        		<a class="nav-link" href="#"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/8/8c/Norwich_City.svg/225px-Norwich_City.svg.png" class="clubs"></a>
+	    				</div>
+
+	    				<div>
+	    					<nav class="navbar navbar-expand-lg navbar-dark bg-dark rounded-left">	  			
+	  							<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="	#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	    							<span class="navbar-toggler-icon" id="navt"></span>
+	 							</button>
+								<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					    			<ul class="navbar-nav mr-auto">
+					      				<li class="nav-item active">
+					        			<a class="nav-link" href="#">Premiere League<span class="sr-only">(current)</span></a>
+					      			</li>
+					      			<li class="nav-item">
+					        			<a class="nav-link" href="#">Standings</a>
+					      			</li>
+					      			<li class="nav-item">
+					        			<a class="nav-link" href="#">Clubs</a>
+					      			</li>
+					      			<li class="nav-item">
+					        		<a class="nav-link" href="#">Players</a>
+					      			</li>
+					      			<li class="nav-item">
+					        		<a class="nav-link" href="#">Fantasy</a>
+					      			</li>
+					    			</ul>
+
+					    			<ul class="navbar-nav justify-content-end mr-2">
+					      			<li class="nav-item">
+					        		<a class="nav-link" href="#">Sign-in</a>
+					      			</li>
+					      			</ul>
+
+					    			<form class="form-inline my-2 my-lg-0">
+	     	 						<input class="form-control form-control-sm mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+	      							<button class="btn btn-outline-light btn-sm border-0 my-2 my-sm-0" type="submit"><i class="fas fa-search"></i></button>
+	    							</form>
+	  						</div>
+						</nav>
+	    			</div>
+	    			<div class="mb-4"></div>
+
+	    		</div>
+    			
+			</div>
+  		</div>	
+
+  		<div class="jumbotron bg-dark">
+  			<h1 class="display-2 text-white">Your Acoount</h1>
+  		</div>
+  </div>
+
+
+  <table>
+            
+            <thead>
+              <tr>
+                <th scope="col">Player</th>
+                <th class="hide-s" scope="col">Position</th>
+                <th class="hide-s" scope="col">Nationality</th>
+              </tr>
+            </thead>
+            <tbody class="dataContainer indexSection"><tr><td><a href="//www.premierleague.com/players/19970/Max-Aarons/overview" class="playerName"><img class="img" data-player="p232980" data-size="40x40" src="//resources.premierleague.com/premierleague/photos/players/40x40/p232980.png" alt="Photo for Max Aarons">Max Aarons</a></td><td class="hide-s">Defender</td><td class="hide-s"> <span class="flag GB-ENG"></span>  <span class="playerCountry">England</span></td></tr><tr><td><a href="//www.premierleague.com/players/13279/Abdul-Rahman-Baba/overview" class="playerName"><img class="img" data-player="p118335" data-size="40x40" src="//resources.premierleague.com/premierleague/photos/players/40x40/p118335.png" alt="Photo for Abdul Rahman Baba">Abdul Rahman Baba</a></td><td class="hide-s">Defender</td><td class="hide-s"> <span class="flag GH"></span>  <span class="playerCountry">Ghana</span></td></tr><tr><td><a href="//www.premierleague.com/players/13286/Tammy-Abraham/overview" class="playerName"><img class="img" data-player="p173879" data-size="40x40" src="//resources.premierleague.com/premierleague/photos/players/40x40/p173879.png" alt="Photo for Tammy Abraham">Tammy Abraham</a></td><td class="hide-s">Forward</td><td class="hide-s"> <span class="flag GB-ENG"></span>  <span class="playerCountry">England</span></td></tr><tr><td><a href="//www.premierleague.com/players/3512/Adam-Smith/overview" class="playerName"><img class="img" data-player="p54469" data-size="40x40" src="//resources.premierleague.com/premierleague/photos/players/40x40/p54469.png" alt="Photo for Adam Smith">Adam Smith</a></td><td class="hide-s">Defender</td><td class="hide-s"> <span class="flag GB-ENG"></span>  <span class="playerCountry">England</span></td></tr><tr><td><a href="//www.premierleague.com/players/10905/Che-Adams/overview" class="playerName"><img class="img" data-player="p200439" data-size="40x40" src="//resources.premierleague.com/premierleague/photos/players/40x40/p200439.png" alt="Photo for Che Adams">Che Adams</a></td><td class="hide-s">Midfielder</td><td class="hide-s"> <span class="flag GB-ENG"></span>  <span class="playerCountry">England</span></td></tr><tr><td><a href="//www.premierleague.com/players/14674/Dennis-Adeniran/overview" class="playerName"><img class="img" data-player="p183645" data-size="40x40" src="//resources.premierleague.com/premierleague/photos/players/40x40/p183645.png" alt="Photo for Dennis Adeniran">Dennis Adeniran</a></td><td class="hide-s">Midfielder</td><td class="hide-s"> <span class="flag GB-ENG"></span>  <span class="playerCountry">England</span></td></tr><tr><td><a href="//www.premierleague.com/players/9131/Albert-Adomah/overview" class="playerName"><img class="img" data-player="p49773" data-size="40x40" src="//resources.premierleague.com/premierleague/photos/players/40x40/p49773.png" alt="Photo for Albert Adomah">Albert Adomah</a></td><td class="hide-s">Midfielder</td><td class="hide-s"> <span class="flag GH"></span>  <span class="playerCountry">Ghana</span></td></tr><tr><td><a href="//www.premierleague.com/players/4852/Adrián/overview" class="playerName"><img class="img" data-player="p60706" data-size="40x40" src="//resources.premierleague.com/premierleague/photos/players/40x40/p60706.png" alt="Photo for Adrián">Adrián</a></td><td class="hide-s">Goalkeeper</td><td class="hide-s"> <span class="flag ES"></span>  <span class="playerCountry">Spain</span></td></tr><tr><td><a href="//www.premierleague.com/players/11357/Adrien-Silva/overview" class="playerName"><img class="img" data-player="p46483" data-size="40x40" src="//resources.premierleague.com/premierleague/photos/players/40x40/p46483.png" alt="Photo for Adrien Silva">Adrien Silva</a></td><td class="hide-s">Midfielder</td><td class="hide-s"> <span class="flag PT"></span>  <span class="playerCountry">Portugal</span></td></tr><tr><td><a href="//www.premierleague.com/players/4040/Benik-Afobe/overview" class="playerName"><img class="img" data-player="p88498" data-size="40x40" src="//resources.premierleague.com/premierleague/photos/players/40x40/p88498.png" alt="Photo for Benik Afobe">Benik Afobe</a></td><td class="hide-s">Forward</td><td class="hide-s"> <span class="flag CD"></span>  <span class="playerCountry">The Democratic Republic Of Congo</span></td></tr><tr><td><a href="//www.premierleague.com/players/4328/Sergio-Agüero/overview" class="playerName"><img class="img" data-player="p37572" data-size="40x40" src="//resources.premierleague.com/premierleague/photos/players/40x40/p37572.png" alt="Photo for Sergio Agüero">Sergio Agüero</a></td><td class="hide-s">Forward</td><td class="hide-s"> <span class="flag AR"></span>  <span class="playerCountry">Argentina</span></td></tr><tr><td><a href="//www.premierleague.com/players/10559/Daniel-Agyei/overview" class="playerName"><img class="img" data-player="p207725" data-size="40x40" src="//resources.premierleague.com/premierleague/photos/players/40x40/p207725.png" alt="Photo for Daniel Agyei">Daniel Agyei</a></td><td class="hide-s">Forward</td><td class="hide-s"> <span class="flag GB-ENG"></span>  <span class="playerCountry">England</span></td></tr><tr><td><a href="//www.premierleague.com/players/24695/Soufyan-Ahannach/overview" class="playerName"><img class="img" data-player="p134293" data-size="40x40" src="//resources.premierleague.com/premierleague/photos/players/40x40/Photo-Missing.png" alt="Photo for Soufyan Ahannach" data-error="true">Soufyan Ahannach</a></td><td class="hide-s">Midfielder</td><td class="hide-s"> <span class="flag NL"></span>  <span class="playerCountry">Netherlands</span></td></tr><tr><td><a href="//www.premierleague.com/players/4183/Ahmed-El-Mohamady/overview" class="playerName"><img class="img" data-player="p37339" data-size="40x40" src="//resources.premierleague.com/premierleague/photos/players/40x40/p37339.png" alt="Photo for Ahmed El Mohamady">Ahmed El Mohamady</a></td><td class="hide-s">Defender</td><td class="hide-s"> <span class="flag EG"></span>  <span class="playerCountry">Egypt</span></td></tr><tr><td><a href="//www.premierleague.com/players/5248/Albian-Ajeti/overview" class="playerName"><img class="img" data-player="p181008" data-size="40x40" src="//resources.premierleague.com/premierleague/photos/players/40x40/p181008.png" alt="Photo for Albian Ajeti">Albian Ajeti</a></td><td class="hide-s">Forward</td><td class="hide-s"> <span class="flag CH"></span>  <span class="playerCountry">Switzerland</span></td></tr><tr><td><a href="//www.premierleague.com/players/4499/Nathan-Aké/overview" class="playerName"><img class="img" data-player="p126184" data-size="40x40" src="//resources.premierleague.com/premierleague/photos/players/40x40/p126184.png" alt="Photo for Nathan Aké">Nathan Aké</a></td><td class="hide-s">Defender</td><td class="hide-s"> <span class="flag NL"></span>  <span class="playerCountry">Netherlands</span></td></tr><tr><td><a href="//www.premierleague.com/players/7219/Alberto-Moreno/overview" class="playerName"><img class="img" data-player="p100059" data-size="40x40" src="//resources.premierleague.com/premierleague/photos/players/40x40/p100059.png" alt="Photo for Alberto Moreno">Alberto Moreno</a></td><td class="hide-s">Defender</td><td class="hide-s"> <span class="flag ES"></span>  <span class="playerCountry">Spain</span></td></tr><tr><td><a href="//www.premierleague.com/players/3564/Marc-Albrighton/overview" class="playerName"><img class="img" data-player="p51938" data-size="40x40" src="//resources.premierleague.com/premierleague/photos/players/40x40/p51938.png" alt="Photo for Marc Albrighton">Marc Albrighton</a></td><td class="hide-s">Midfielder</td><td class="hide-s"> <span class="flag GB-ENG"></span>  <span class="playerCountry">England</span></td></tr><tr><td><a href="//www.premierleague.com/players/4916/Toby-Alderweireld/overview" class="playerName"><img class="img" data-player="p55605" data-size="40x40" src="//resources.premierleague.com/premierleague/photos/players/40x40/p55605.png" alt="Photo for Toby Alderweireld">Toby Alderweireld</a></td><td class="hide-s">Defender</td><td class="hide-s"> <span class="flag BE"></span>  <span class="playerCountry">Belgium</span></td></tr><tr><td><a href="//www.premierleague.com/players/12946/Aleix-García/overview" class="playerName"><img class="img" data-player="p178871" data-size="40x40" src="//resources.premierleague.com/premierleague/photos/players/40x40/p178871.png" alt="Photo for Aleix García">Aleix García</a></td><td class="hide-s">Midfielder</td><td class="hide-s"> <span class="flag ES"></span>  <span class="playerCountry">Spain</span></td></tr><tr><td><a href="//www.premierleague.com/players/14732/Trent-Alexander-Arnold/overview" class="playerName"><img class="img" data-player="p169187" data-size="40x40" src="//resources.premierleague.com/premierleague/photos/players/40x40/p169187.png" alt="Photo for Trent Alexander-Arnold">Trent Alexander-Arnold</a></td><td class="hide-s">Defender</td><td class="hide-s"> <span class="flag GB-ENG"></span>  <span class="playerCountry">England</span></td></tr><tr><td><a href="//www.premierleague.com/players/55603/Ali-Koiki/overview" class="playerName"><img class="img" data-player="p432793" data-size="40x40" src="//resources.premierleague.com/premierleague/photos/players/40x40/p432793.png" alt="Photo for Ali Koiki">Ali Koiki</a></td><td class="hide-s">Defender</td><td class="hide-s"> <span class="flag GB-ENG"></span>  <span class="playerCountry">England</span></td></tr><tr><td><a href="//www.premierleague.com/players/20559/Alisson/overview" class="playerName"><img class="img" data-player="p116535" data-size="40x40" src="//resources.premierleague.com/premierleague/photos/players/40x40/p116535.png" alt="Photo for Alisson">Alisson</a></td><td class="hide-s">Goalkeeper</td><td class="hide-s"> <span class="flag BR"></span>  <span class="playerCountry">Brazil</span></td></tr><tr><td><a href="//www.premierleague.com/players/13984/Allan/overview" class="playerName"><img class="img" data-player="p214275" data-size="40x40" src="//resources.premierleague.com/premierleague/photos/players/40x40/Photo-Missing.png" alt="Photo for Allan" data-error="true">Allan</a></td><td class="hide-s">Midfielder</td><td class="hide-s"> <span class="flag BR"></span>  <span class="playerCountry">Brazil</span></td></tr><tr><td><a href="//www.premierleague.com/players/54312/Miguel-Almirón/overview" class="playerName"><img class="img" data-player="p179018" data-size="40x40" src="//resources.premierleague.com/premierleague/photos/players/40x40/p179018.png" alt="Photo for Miguel Almirón">Miguel Almirón</a></td><td class="hide-s">Midfielder</td><td class="hide-s"> <span class="flag PY"></span>  <span class="playerCountry">Paraguay</span></td></tr><tr><td><a href="//www.premierleague.com/players/4093/Marcos-Alonso/overview" class="playerName"><img class="img" data-player="p82263" data-size="40x40" src="//resources.premierleague.com/premierleague/photos/players/40x40/p82263.png" alt="Photo for Marcos Alonso">Marcos Alonso</a></td><td class="hide-s">Defender</td><td class="hide-s"> <span class="flag ES"></span>  <span class="playerCountry">Spain</span></td></tr><tr><td><a href="//www.premierleague.com/players/20723/Steven-Alzate/overview" class="playerName"><img class="img" data-player="p235382" data-size="40x40" src="//resources.premierleague.com/premierleague/photos/players/40x40/p235382.png" alt="Photo for Steven Alzate">Steven Alzate</a></td><td class="hide-s">Forward</td><td class="hide-s"> <span class="flag CO"></span>  <span class="playerCountry">Colombia</span></td></tr><tr><td><a href="//www.premierleague.com/players/49990/Ibrahim-Amadou/overview" class="playerName"><img class="img" data-player="p128348" data-size="40x40" src="//resources.premierleague.com/premierleague/photos/players/40x40/p128348.png" alt="Photo for Ibrahim Amadou">Ibrahim Amadou</a></td><td class="hide-s">Midfielder</td><td class="hide-s"> <span class="flag FR"></span>  <span class="playerCountry">France</span></td></tr><tr><td><a href="//www.premierleague.com/players/12306/Daniel-Amartey/overview" class="playerName"><img class="img" data-player="p155569" data-size="40x40" src="//resources.premierleague.com/premierleague/photos/players/40x40/p155569.png" alt="Photo for Daniel Amartey">Daniel Amartey</a></td><td class="hide-s">Defender</td><td class="hide-s"> <span class="flag GH"></span>  <span class="playerCountry">Ghana</span></td></tr><tr><td><a href="//www.premierleague.com/players/15128/Luke-Amos/overview" class="playerName"><img class="img" data-player="p168764" data-size="40x40" src="//resources.premierleague.com/premierleague/photos/players/40x40/p168764.png" alt="Photo for Luke Amos">Luke Amos</a></td><td class="hide-s">Midfielder</td><td class="hide-s"> <span class="flag GB-ENG"></span>  <span class="playerCountry">England</span></td></tr></tbody>
+          </table>
+  
+</body>
+</html>  

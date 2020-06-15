@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+ 	
+ 	<meta name="viewport" content="width=device-width, initial-scale=0.86, maximum-scale=3.0, minimum-scale=0.86">
+ 	
+ 	<link rel="stylesheet" type="text/css" href="bootstrap.css">
+
+	<title>EPL Guru</title>
+
+	<link rel="stylesheet" type="text/css" href="teams.css">
+
+	<link href="https://fonts.googleapis.com/css?family=Roboto:500&display=swap" rel="stylesheet">
+	
+	<script src="https://kit.fontawesome.com/a24945b291.js" crossorigin="anonymous"></script>
+	
+
+
+	<script  src="https://code.jquery.com/jquery-3.4.1.js"integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"> </script>
+</head>
+
+<body>
+  	<div class="flud-container bg-white">
+  		<div class="row">
+  			<div class="col-1">
+  				<i class="far fa-futbol border"></i>
+  			</div>
+  				<div class="col-11">	
+  					<div class="d-flex flex-column">
+	        			<div class="d-flex justify-content-around">	
+	        					<p class="text-muted" id="clubsites">Club Sites </p>	
+
+	        					<a class="nav-link" href="#"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/0/0c/Liverpool_FC.svg/800px-Liverpool_FC.svg.png" class="clubs"></a>
+	        					<a class="nav-link" href="#"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/e/eb/Manchester_City_FC_badge.svg/474px-Manchester_City_FC_badge.svg.png" class="clubs"></a>
+	     		
+	     		        		<a class="nav-link" href="#"> <img src="https://upload.wikimedia.org/wikipedia/en/thumb/2/2d/Leicester_City_crest.svg/1024px-Leicester_City_crest.svg.png" class="clubs"></a>
+	      		        		<a class="nav-link" href="#"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/c/cc/Chelsea_FC.svg/1024px-Chelsea_FC.svg.png" class="clubs"></a>
+	     		
+	     		        		<a class="nav-link" href="#"> <img src="https://upload.wikimedia.org/wikipedia/en/thumb/7/7a/Manchester_United_FC_crest.svg/1024px-Manchester_United_FC_crest.svg.png" class="clubs"></a>
+	      		        		<a class="nav-link" href="#"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/f/fc/Wolverhampton_Wanderers.svg/1024px-Wolverhampton_Wanderers.svg.png" class="clubs"></a>
+	     		
+	     		        		<a class="nav-link" href="#"> <img src="https://upload.wikimedia.org/wikipedia/en/thumb/b/b4/Tottenham_Hotspur.svg/800px-Tottenham_Hotspur.svg.png" class="clubs"></a>
+	      		        		<a class="nav-link" href="#"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/9/9c/Sheffield_United_FC_logo.svg/1024px-Sheffield_United_FC_logo.svg.png" class="clubs"></a>
+	     		
+	     		        		<a class="nav-link" href="#"> <img src="https://upload.wikimedia.org/wikipedia/en/thumb/6/62/Burnley_F.C._Logo.svg/270px-Burnley_F.C._Logo.svg.png" class="clubs"></a>
+	      		        		<a class="nav-link" href="#"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/5/53/Arsenal_FC.svg/800px-Arsenal_FC.svg.png" class="clubs"></a>
+	     		
+	     		        		<a class="nav-link" href="#"> <img src="https://upload.wikimedia.org/wikipedia/en/thumb/7/7c/Everton_FC_logo.svg/800px-Everton_FC_logo.svg.png" class="clubs"></a>
+	      		        		<a class="nav-link" href="#"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/0/0c/Crystal_Palace_FC_logo.svg/800px-Crystal_Palace_FC_logo.svg.png" class="clubs"></a>
+	     		
+	     		        		<a class="nav-link" href="#"> <img src="https://upload.wikimedia.org/wikipedia/en/thumb/c/c9/FC_Southampton.svg/800px-FC_Southampton.svg.png" class="clubs"></a>
+	      		        		<a class="nav-link" href="#"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/5/56/Newcastle_United_Logo.svg/1024px-Newcastle_United_Logo.svg.png" class="clubs"></a>
+	     		
+	     		        		<a class="nav-link" href="#"> <img src="https://upload.wikimedia.org/wikipedia/en/thumb/f/fd/Brighton_%26_Hove_Albion_logo.svg/1024px-Brighton_%26_Hove_Albion_logo.svg.png" class="clubs"></a>
+	      		        		<a class="nav-link" href="#"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/c/c2/West_Ham_United_FC_logo.svg/800px-West_Ham_United_FC_logo.svg.png" class="clubs"></a>
+	     		
+	     		        		<a class="nav-link" href="#"> <img src="https://upload.wikimedia.org/wikipedia/en/thumb/e/e2/Watford.svg/800px-Watford.svg.png" class="clubs"></a>
+	      		        		<a class="nav-link" href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/6/68/OFFICIALBournemouthFC.png" class="clubs"></a>
+	     		
+	     		        		<a class="nav-link" href="#"> <img src="https://upload.wikimedia.org/wikipedia/en/thumb/f/f9/Aston_Villa_FC_crest_%282016%29.svg/225px-Aston_Villa_FC_crest_%282016%29.svg.png" class="clubs"></a>
+	      		        		<a class="nav-link" href="#"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/8/8c/Norwich_City.svg/225px-Norwich_City.svg.png" class="clubs"></a>
+	    				</div>
+
+	    				<div>
+	    					<nav class="navbar navbar-expand-lg navbar-dark bg-dark">	  			
+	  							<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="	#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	    							<span class="navbar-toggler-icon" id="navt"></span>
+	 							</button>
+								<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					    			<ul class="navbar-nav mr-auto">
+					      				<li class="nav-item active">
+					        			<a class="nav-link" href="#">Premiere League<span class="sr-only">(current)</span></a>
+					      			</li>
+					      			<li class="nav-item">
+					        			<a class="nav-link" href="#">Standings</a>
+					      			</li>
+					      			<li class="nav-item">
+					        			<a class="nav-link" href="#">Clubs</a>
+					      			</li>
+					      			<li class="nav-item">
+					        		<a class="nav-link" href="#">Players</a>
+					      			</li>
+					      			<li class="nav-item">
+					        		<a class="nav-link" href="#">Fantasy</a>
+					      			</li>
+					    			</ul>
+
+					    			<ul class="navbar-nav justify-content-end mr-2">
+					      			<li class="nav-item">
+					        		<a class="nav-link" href="#">Sign-in</a>
+					      			</li>
+					      			</ul>
+
+					    			<form class="form-inline my-2 my-lg-0">
+	     	 						<input class="form-control form-control-sm mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+	      							<button class="btn btn-outline-light btn-sm border-0 my-2 my-sm-0" type="submit"><i class="fas fa-search"></i></button>
+	    							</form>
+	  						</div>
+						</nav>
+	    			</div>
+	    			<div class="mb-4"></div>
+
+	    		</div>
+    			
+			</div>
+  		</div>	
+
+  		<div class="bg-dark mt-2 mb-5" style="padding: 50px 0px 20px 125px; margin-left:-30px; width: 101%; border-radius:40px ">
+  			<div class="d-flex">
+	  			<h2 class="display-3 text-white mr-3" style="font-family:'Roboto', sans-serif;">Clubs</h2>
+	  			<form style="padding-top: 30px; padding-right: 5px">
+				  <div class="form-group">
+				    <input type="email" class="form-control bg-dark" id="exampleFormControlInput1" placeholder="Search">
+				  </div>
+				</form>
+				<i class="fas fa-search bg-white rounded-circle" style="margin-top: 32px; padding:8px 8px; height: 150%"></i>
+  			</div>
+  		
+  </div>
+
+
+  <div class="container">
+	<div class="row">
+
+		<div class="col-3">
+			<div class="card mb-4 box-shadow" style="width: 95%; height: 300px; display: block">
+				<div class="overlay rounded-circle bg-white text-center" style="height: 52px;width: 52px;">
+   							 <img src="http://icons.iconarchive.com/icons/giannis-zographos/english-football-club/256/Arsenal-FC-icon.png" style="height: 40px;width: 40px; margin-top:6px;">
+  				</div>
+		                <img class="card-img-top dob" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 50%; width: 100%; display: block;" src="https://images.unsplash.com/photo-1577223632489-93ce08c2ac6d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" data-holder-rendered="true">
+		                <div class="card-body text-center text-white" style="background: #fa4134; height:50%">
+				    		<h5 class="card-title">Arsenal</h5>
+
+				    		<p class="card-text">Emirates Stadium</p>
+				   			 <a class="text-white" href="#">Club Profile</a>
+				  		</div>
+		        </div>
+			</div>
+
+			<div class="col-3">
+			<div class="card mb-4 box-shadow" style="width: 95%; height: 300px; display: block">
+						<div class="overlay rounded-circle bg-white text-center" style="height: 52px;width: 52px;">
+   							 <img src="http://icons.iconarchive.com/icons/giannis-zographos/english-football-club/256/Aston-Villa-icon.png" style="height: 40px;width: 40px; margin-top:7px;">
+  						</div>
+
+		                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 50%; width: 100%; display: block;" src="https://upload.wikimedia.org/wikipedia/commons/0/01/Villa_Park.jpg" data-holder-rendered="true">
+
+		                <div class="card-body text-center text-white" style="background: #42142c; height:50%">
+				    		<h5 class="card-title">Aston Villa</h5>
+				    		<p class="card-text">Villa Park</p>
+				   			 <a class="text-white" href="#">Club Profile</a>
+				  		</div>
+		        </div>
+			</div>
+
+			<div class="col-3">
+			<div class="card mb-4 box-shadow" style="width: 95%; height: 300px; display: block">
+						<div class="overlay rounded-circle bg-white text-center" style="height: 52px;width: 52px;">
+   							 <img src="http://icons.iconarchive.com/icons/giannis-zographos/english-football-club/256/AFC-Bournemouth-icon.png" style="height: 40px;width: 40px; margin-top:6px;">
+  						</div>
+
+		                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 50%; width: 100%; display: block;" src="https://i.pinimg.com/564x/5b/7b/70/5b7b702ba996644545a783cb9b5b14fb.jpg" data-holder-rendered="true">
+
+		                <div class="card-body text-center text-white" style="background: #fa4134; height:50%">
+				    		<h5 class="card-title">Afc Bournemouth</h5>
+				    		<p class="card-text">Vitality Stadium</p>
+				   			 <a class="text-white" href="#">Club Profile</a>
+				  		</div>
+		        </div>
+			</div>
+
+			<div class="col-3">
+			<div class="card mb-4 box-shadow" style="width: 95%; height: 300px; display: block">
+						<div class="overlay rounded-circle bg-white text-center" style="height: 52px;width: 52px;">
+   							 <img src="http://icons.iconarchive.com/icons/giannis-zographos/english-football-club/256/Brighton-Hove-Albion-icon.png" style="height: 40px;width: 40px; margin-top:7px; margin-left: 3px;">
+  						</div>
+
+		                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 50%; width: 100%; display: block;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Falmer_Stadium_-_night.jpg/330px-Falmer_Stadium_-_night.jpg" data-holder-rendered="true">
+
+		                <div class="card-body text-center text-white" style="background: #3f52e0; height:50%">
+				    		<h5 class="card-title" style="font-size: 1rem; margin-top: 4px">Brighton and Hove Albion</h5>
+				    		<p class="card-text">Amex Stadium</p>
+				   			 <a class="text-white" href="#">Club Profile</a>
+				  		</div>
+		        </div>
+			</div>
+
+			<div class="col-3">
+			<div class="card mb-4 box-shadow" style="width: 95%; height: 300px; display: block">
+						<div class="overlay rounded-circle bg-white text-center" style="height: 52px;width: 52px;">
+   							 <img src="http://icons.iconarchive.com/icons/giannis-zographos/english-football-club/256/Burnley-FC-icon.png" style="height: 40px;width: 40px; margin-top:7px;">
+  						</div>
+
+		                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 50%; width: 100%; display: block;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/James_Hargreaves_Stand_Burnley.jpg/375px-James_Hargreaves_Stand_Burnley.jpg" data-holder-rendered="true">
+
+		                <div class="card-body text-center text-white" style="background: #702748; height:50%">
+				    		<h5 class="card-title">Burnley</h5>
+				    		<p class="card-text">Turf Moor</p>
+				   			 <a class="text-white" href="#">Club Profile</a>
+				  		</div>
+		        </div>
+			</div>
+
+			<div class="col-3">
+			<div class="card mb-4 box-shadow" style="width: 95%; height: 300px; display: block">
+						<div class="overlay rounded-circle bg-white text-center" style="height: 52px;width: 52px;">
+   							 <img src="http://icons.iconarchive.com/icons/giannis-zographos/english-football-club/256/Chelsea-FC-icon.png" style="height: 40px;width: 40px; margin-top:6px;">
+  						</div>
+
+		                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 50%; width: 100%; display: block;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Stamford_Bridge_Clear_Skies.JPG/450px-Stamford_Bridge_Clear_Skies.JPG" data-holder-rendered="true">
+
+		                <div class="card-body text-center text-white" style="background: #2c3891; height:50%">
+				    		<h5 class="card-title">Chelsea</h5>
+				    		<p class="card-text">Stamford Bridge</p>
+				   			 <a class="text-white" href="#">Club Profile</a>
+				  		</div>
+		        </div>
+			</div>
+
+			<div class="col-3">
+			<div class="card mb-4 box-shadow" style="width: 95%; height: 300px; display: block">
+						<div class="overlay rounded-circle bg-white text-center" style="height: 52px;width: 52px;">
+   							 <img src="http://icons.iconarchive.com/icons/giannis-zographos/english-football-club/256/Crystal-Palace-icon.png" style="height: 40px;width: 40px; margin-top:6px;">
+  						</div>
+
+		                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 50%; width: 100%; display: block;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Selhurst_Park_Holmesdale_Stand.jpg/330px-Selhurst_Park_Holmesdale_Stand.jpg" data-holder-rendered="true">
+
+		                <div class="card-body text-center text-white" style="background: #fa4134; height:50%">
+				    		<h5 class="card-title">Crystal Palace</h5>
+				    		<p class="card-text">Selhurst Park</p>
+				   			 <a class="text-white" href="#">Club Profile</a>
+				  		</div>
+		        </div>
+			</div>
+
+			<div class="col-3">
+			<div class="card mb-4 box-shadow" style="width: 95%; height: 300px; display: block">
+						<div class="overlay rounded-circle bg-white text-center" style="height: 52px;width: 52px;">
+   							 <img src="http://icons.iconarchive.com/icons/giannis-zographos/english-football-club/256/Everton-FC-icon.png" style="height: 40px;width: 40px; margin-top:5px;">
+  						</div>
+
+		                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 50%; width: 100%; display: block;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Goodison2017.JPG/450px-Goodison2017.JPG" data-holder-rendered="true">
+
+		                <div class="card-body text-center text-white" style="background: #3139b0; height:50%">
+				    		<h5 class="card-title">Everton</h5>
+				    		<p class="card-text">Goodison Park</p>
+				   			 <a class="text-white" href="#">Club Profile</a>
+				  		</div>
+		        </div>
+			</div>
+
+			<div class="col-3">
+			<div class="card mb-4 box-shadow" style="width: 95%; height: 300px; display: block">
+						<div class="overlay rounded-circle bg-white text-center" style="height: 52px;width: 52px;">
+   							 <img src="http://icons.iconarchive.com/icons/giannis-zographos/english-football-club/256/Leicester-City-icon.png" style="height: 40px;width: 40px; margin-top:6px;">
+  						</div>
+
+		                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 50%; width: 100%; display: block;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/King_Power_Stadium_wide_view.jpg/1920px-King_Power_Stadium_wide_view.jpg" data-holder-rendered="true">
+
+		                <div class="card-body text-center text-white" style="background: #2c3891; height:50%">
+				    		<h5 class="card-title">Leicester City</h5>
+				    		<p class="card-text">King Power Stadium</p>
+				   			 <a class="text-white" href="#">Club Profile</a>
+				  		</div>
+		        </div>
+			</div>
+
+			<div class="col-3">
+			<div class="card mb-4 box-shadow" style="width: 95%; height: 300px; display: block">
+						<div class="overlay rounded-circle bg-white text-center" style="height: 52px;width: 52px;">
+   							 <img src="http://icons.iconarchive.com/icons/giannis-zographos/english-football-club/256/Liverpool-FC-icon.png" style="height: 40px;width: 40px; margin-top:6px;">
+  						</div>
+
+		                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 50%; width: 100%; display: block;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Panorama_of_Anfield_with_new_main_stand_%2829676137824%29.jpg/450px-Panorama_of_Anfield_with_new_main_stand_%2829676137824%29.jpg" data-holder-rendered="true">
+
+		                <div class="card-body text-center text-white" style="background: #fa4134; height:50%">
+				    		<h5 class="card-title">Liverpool</h5>
+				    		<p class="card-text">Anfield</p>
+				   			 <a class="text-white" href="#">Club Profile</a>
+				  		</div>
+		        </div>
+			</div>
+
+			<div class="col-3">
+			<div class="card mb-4 box-shadow" style="width: 95%; height: 300px; display: block">
+						<div class="overlay rounded-circle bg-white text-center" style="height: 52px;width: 52px;">
+   							 <img src="http://icons.iconarchive.com/icons/giannis-zographos/english-football-club/128/Manchester-City-icon.png" style="height: 40px;width: 40px; margin-top:6px;">
+  						</div>
+
+		                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 50%; width: 100%; display: block;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Etihad_Stadium.jpg/450px-Etihad_Stadium.jpg" data-holder-rendered="true">
+		                <div class="card-body text-center text-dark" style="background: #6bb1e3; height:50%">
+				    		<h5 class="card-title">Manchester City</h5>
+				    		<p class="card-text">Etihad Stadium</p>
+				   			 <a class="text-dark" href="#">Club Profile</a>
+				  		</div>
+		        </div>
+			</div>
+
+			<div class="col-3">
+			<div class="card mb-4 box-shadow" style="width: 95%; height: 300px; display: block">
+						<div class="overlay rounded-circle bg-white text-center" style="height: 52px;width: 52px;">
+   							 <img src="http://icons.iconarchive.com/icons/giannis-zographos/english-football-club/128/Manchester-United-icon.png" style="height: 40px;width: 40px; margin-top:6px;">
+  						</div>
+
+		                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 50%; width: 100%; display: block;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Manchester_United_Panorama_%288051523746%29.jpg/1920px-Manchester_United_Panorama_%288051523746%29.jpg" data-holder-rendered="true">
+
+		                <div class="card-body text-center text-white" style="background: #fa4134; height:50%">
+				    		<h5 class="card-title">Manchester United</h5>
+				    		<p class="card-text">Old Traford</p>
+				   			 <a class="text-white" href="#">Club Profile</a>
+				  		</div>
+		        </div>
+			</div>
+
+			<div class="col-3">
+			<div class="card mb-4 box-shadow" style="width: 95%; height: 300px; display: block">
+						<div class="overlay rounded-circle bg-white text-center" style="height: 52px;width: 52px;">
+   							 <img src="http://icons.iconarchive.com/icons/giannis-zographos/english-football-club/128/Newcastle-United-icon.png" style="height: 40px;width: 40px; margin-top:6px;">
+  						</div>
+
+		                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 50%; width: 100%; display: block;" src="https://upload.wikimedia.org/wikipedia/commons/2/2b/Aerial_view_of_St_James_Park_-_geograph.org.uk_-_472327_%28cropped%29.jpg" data-holder-rendered="true">
+
+		                <div class="card-body text-center text-white" style="background: #353a3d; height:50%">
+				    		<h5 class="card-title">Newcastle United</h5>
+				    		<p class="card-text">St.James'Park</p>
+				   			 <a class="text-white" href="#">Club Profile</a>
+				  		</div>
+		        </div>
+			</div>
+
+			<div class="col-3">
+			<div class="card mb-4 box-shadow" style="width: 95%; height: 300px; display: block">
+						<div class="overlay rounded-circle bg-white text-center" style="height: 52px;width: 52px;">
+   							 <img src="http://icons.iconarchive.com/icons/giannis-zographos/english-football-club/128/Norwich-City-icon.png" style="height: 40px;width: 40px; margin-top:8px;">
+  						</div>
+
+		                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 50%; width: 100%; display: block;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Carrow_Road_exterior.jpg/390px-Carrow_Road_exterior.jpg" data-holder-rendered="true">
+
+		                <div class="card-body text-center text-white" style="background: #23a657; height:50%">
+				    		<h5 class="card-title">Norwich City</h5>
+				    		<p class="card-text">Carrow Road</p>
+				   			 <a class="text-white" href="#">Club Profile</a>
+				  		</div>
+		        </div>
+			</div>
+
+			<div class="col-3">
+			<div class="card mb-4 box-shadow" style="width: 95%; height: 300px; display: block">
+						<div class="overlay rounded-circle bg-white text-center" style="height: 52px;width: 52px;">
+   							 <img src="http://icons.iconarchive.com/icons/giannis-zographos/english-football-club/128/Sheffield-United-icon.png" style="height: 40px;width: 40px; margin-top:6px;">
+  						</div>
+
+		                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 50%; width: 100%; display: block;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Bramall_lane1.jpg/435px-Bramall_lane1.jpg" data-holder-rendered="true">
+
+		                <div class="card-body text-center text-white" style="background: #fa4134; height:50%">
+				    		<h5 class="card-title">Sheffield United</h5>
+				    		<p class="card-text">Bramall Lane</p>
+				   			 <a class="text-white" href="#">Club Profile</a>
+				  		</div>
+		        </div>
+			</div>
+
+			<div class="col-3">
+			<div class="card mb-4 box-shadow" style="width: 95%; height: 300px; display: block">
+						<div class="overlay rounded-circle bg-white text-center" style="height: 52px;width: 52px;">
+   							 <img src="http://icons.iconarchive.com/icons/giannis-zographos/english-football-club/128/Southampton-FC-icon.png" style="height: 40px;width: 40px; margin-top:6px;">
+  						</div>
+
+		                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 50%; width: 100%; display: block;" src="https://360view.hum3d.com/zoom/Sport_Arena/115_St_Marys_Stadium_1000_0001.jpg" data-holder-rendered="true">
+
+		                <div class="card-body text-center text-white" style="background: #fa4134; height:50%">
+				    		<h5 class="card-title">Southampton</h5>
+				    		<p class="card-text">St. Mary's Stadium</p>
+				   			 <a class="text-white" href="#">Club Profile</a>
+				  		</div>
+		        </div>
+			</div>
+
+			<div class="col-3">
+			<div class="card mb-4 box-shadow" style="width: 95%; height: 300px; display: block">
+						<div class="overlay rounded-circle bg-white text-center" style="height: 52px;width: 52px;">
+   							 <img src="http://icons.iconarchive.com/icons/giannis-zographos/english-football-club/128/Tottenham-Hotspur-icon.png" style="height: 40px;width: 40px; margin-top:6px;">
+  						</div>
+
+		                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 50%; width: 100%; display: block;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Tottenham_Hotspur_Stadium_June_2019%2C_view_from_East.jpg/420px-Tottenham_Hotspur_Stadium_June_2019%2C_view_from_East.jpg" data-holder-rendered="true">
+
+		                <div class="card-body text-center text-dark" style="background: #f5f5f5; height:50%">
+				    		<h5 class="card-title">Tottenham Hotspur</h5>
+				    		<p class="card-text">Tottenham Hotspur Stadium</p>
+				   			 <a class="text-dark" href="#">Club Profile</a>
+				  		</div>
+		        </div>
+			</div>
+
+			<div class="col-3">
+			<div class="card mb-4 box-shadow" style="width: 95%; height: 300px; display: block">
+						<div class="overlay rounded-circle bg-white text-center" style="height: 52px;width: 52px;">
+   							 <img src="https://upload.wikimedia.org/wikipedia/en/thumb/e/e2/Watford.svg/800px-Watford.svg.png" style="height: 40px;width: 40px; margin-top:6px;">
+  						</div>
+
+		                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 50%; width: 100%; display: block;" src="https://upload.wikimedia.org/wikipedia/commons/1/16/Vicarage_Road_2015.jpg" data-holder-rendered="true">
+
+		                <div class="card-body text-center text-dark" style="background: #edf029; height:50%">
+				    		<h5 class="card-title">Wartford</h5>
+				    		<p class="card-text">Vicarage Road</p>
+				   			 <a class="text-dark" href="#">Club Profile</a>
+				  		</div>
+		        </div>
+			</div>
+
+			<div class="col-3">
+			<div class="card mb-4 box-shadow" style="width: 95%; height: 300px; display: block">
+						<div class="overlay rounded-circle bg-white text-center" style="height: 52px;width: 52px;">
+   							 <img src="http://icons.iconarchive.com/icons/giannis-zographos/english-football-club/128/West-Ham-United-icon.png" style="height: 40px;width: 40px; margin-top:6px;">
+  						</div>
+
+		                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 50%; width: 100%; display: block;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/FloodlitLondonStadium.jpg/450px-FloodlitLondonStadium.jpg" data-holder-rendered="true">
+
+		                <div class="card-body text-center text-white" style="background: #fa4134; height:50%">
+				    		<h5 class="card-title">West Ham United</h5>
+				    		<p class="card-text">London Stadium</p>
+				   			 <a class="text-white" href="#">Club Profile</a>
+				  		</div>
+		        </div>
+			</div>
+
+			<div class="col-3">
+			<div class="card mb-4 box-shadow" style="width: 95%; height: 300px; display: block">
+						<div class="overlay rounded-circle bg-white text-center" style="height: 52px;width: 52px;">
+   							 <img src="http://icons.iconarchive.com/icons/giannis-zographos/english-football-club/128/Wolverhampton-Wanderers-icon.png" style="height: 40px;width: 40px; margin-top:6px;">
+  						</div>
+
+		                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 50%; width: 100%; display: block;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Molineux_Stadium%2C_Wolverhampton%2C_2018.jpg/330px-Molineux_Stadium%2C_Wolverhampton%2C_2018.jpg" data-holder-rendered="true">
+
+		                <div class="card-body text-center text-dark" style="background: #e3b900; height:50%">
+				    		<h5 class="card-title" style="font-size: 1rem; margin-top: 4px">Wolverhampton Wanderers</h5>
+				    		<p class="card-text">Molineux Stadium</p>
+				   			 <a class="text-dark" href="#">Club Profile</a>
+				  		</div>
+		        </div>
+			</div>
+
+		</div> 
+
+</script>
+  </body>
+</html> 
